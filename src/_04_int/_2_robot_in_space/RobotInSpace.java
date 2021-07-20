@@ -28,7 +28,8 @@ public class RobotInSpace implements KeyEventDispatcher {
 	private void moveRobot(int keyPressed) throws InterruptedException {
 		// 2. Print out the keyPressed variable and write down the numbers for
 		// each arrow key
-
+		System.out.println(keyPressed);
+		// Up = 38   Down = 40    Right = 39   Left = 37
 		// 3. If the up arrow is pressed, move the Robot up the screen.
 
 		// 4. If the down arrow is pressed, move the Robot down.
