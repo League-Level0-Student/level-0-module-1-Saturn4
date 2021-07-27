@@ -7,7 +7,12 @@ void setup() {
 }
 
 void draw() {
-
+  fill(#DEDEDE);
+  ellipse (60, 60, 110, 110);
+  fill(#C6C4C4);
+  ellipse (90, 60, 20, 20);
+  ellipse (34, 30, 30, 30);
+  ellipse (60, 90, 29, 29);
     fill(random(255), 0, 0);
     ellipse(x, y + 130, 90, 90);
     fill(248, 128, 0);
@@ -16,5 +21,6 @@ void draw() {
     ellipse(x, y + 95, 35, 35);
     fill(100, 100, 100);
     triangle(x, y + 10, x + 50, y + 100, x - 50, y + 100);
+    y -= 10;
 
 }
